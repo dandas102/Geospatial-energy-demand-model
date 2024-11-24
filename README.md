@@ -4,22 +4,12 @@ This workd demonstrate the power of cloud based open-access platforms for modell
 The Google Earth Engine implementation can be found at: [GEE Code Editor Link](https://code.earthengine.google.com/?accept_repo=users/dandas/abudu-astonU-project) or git clone: [GIT Link](https://earthengine.googlesource.com/users/dandas/abudu-astonU-project)  
 
 # Steps:
-1. Run pre-process-datasets.js preferably in a Google Earth Engine environment using link: 
-2. Run export2drive.py in your python Earthengine environment inorder to export pre-processed imagery to your Google drive
-  a) Setup you Earth Engine python API environment. For guidance, see: https://developers.google.com/earth-engine/guides/python_install
-  b) Install the geemap PyPI package. Steps to follow: https://pypi.org/project/geemap/
-  
-# Samples
-1. Annual NDVI Profiles
-![alt text](https://github.com/dandas102/ee-Data-Preprocessing/blob/master/outputs/ee-chart-NDVI.png?raw=true)
+1. Preprocess Landsat (8/9) satellite imagery by running the JavaScript file (landsat_imagery_preprocessing.js) preferably in a Google Earth Engine environment (Create an Asset Folder where the preprocessed imagery will be uploaded).
+2. Setup your Earth Engine python API environment on your local machine ([click here fro guidance](https://developers.google.com/earth-engine/guides/python_install)), and Install the geemap PyPI package which is very resourceful for successful processing and analysis stages. [Steps to follow](https://pypi.org/project/geemap/)
+3. Land use land cover (LULC) classification part 1: 
+4. LULC part 2
 
-2. Annual ARVI Profiles
-![alt text](https://github.com/dandas102/ee-Data-Preprocessing/blob/master/outputs/ee-chart-ARVI.png?raw=true)
-
-3. Annual VV/VH log Ratio Profiles
-![alt text](https://github.com/dandas102/ee-Data-Preprocessing/blob/master/outputs/ee-chart-logR.png?raw=true)
 
 # Entending and re-use in your projects
 This is governed under GNU Puplic licence, once adopted/adapted to you project, you should credit the developer as:
-Abudu, D. and Leloglu, U.M(2020). An Earth Engine Tool for Pre-Processing Sentinel-1C (SAR) and Sentinel-2A/B satellite imagery. Available [Online]: https://code.earthengine.google.com/?accept_repo=users/dandas/AgricParcels
-[![DOI](https://github.com/dandas102/ee-Data-Preprocessing/tree/master.svg)]([https://data.caltech.edu/badge/latestdoi/110025475](https://github.com/dandas102/ee-Data-Preprocessing/tree/master)https://github.com/dandas102/ee-Data-Preprocessing/tree/master)
+To be provided shortly
